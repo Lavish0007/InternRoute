@@ -1,73 +1,38 @@
-# Welcome to your Lovable project
+# InternRoute - Internship Path Advisor
 
-## Project info
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![Node.js CI](https://github.com/yourusername/internroute/actions/workflows/node.js.yml/badge.svg)](https://github.com/yourusername/internroute/actions)
 
-**URL**: https://lovable.dev/projects/65cd694f-3399-4757-afa8-3e51c2858aac
+## 🚀 Overview
+InternRoute is an Edtech platform designed to help college students navigate internship opportunities through structured learning paths and curated resources. The platform addresses key challenges students face in securing tech internships by providing domain-specific roadmaps, skill prioritization guidance, and smart internship matching.
 
-## How can I edit this code?
+## 📋 Problem Statement
+College students face several barriers when seeking tech internships:
+- Lack of structured guidance for skill development
+- Resource overload and confusion in learning paths
+- Fragmented internship listings across platforms
+- Difficulty tracking progress and measuring readiness
 
-There are several ways of editing your application.
+## ✨ Solution Highlights
+### Key Features
+- **Structured Learning Paths**: Step-by-step guides for Web Dev, AI/ML, and Mobile Dev
+- **Curated Resource Hub**: Handpicked tutorials from platforms like Coursera and freeCodeCamp
+- **Smart Internship Matching**: Real-time listings from LinkedIn/Indeed with advanced filters
+- **Progress Tracking**: Monitor skill development and readiness metrics
+- **Community Ratings**: Quality-controlled resources through peer reviews
 
-**Use Lovable**
+## 🛠️ Technology Stack
+- **Frontend**: React + TypeScript + Vite
+- **UI Components**: shadcn-ui
+- **Styling**: Tailwind CSS
+- **Backend**: Express.js
+- **Database**: MongoDB
+- **APIs**: Internship listing aggregators
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/65cd694f-3399-4757-afa8-3e51c2858aac) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/65cd694f-3399-4757-afa8-3e51c2858aac) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+## ⚙️ System Architecture
+```mermaid
+graph TD
+    A[Frontend] --> B[Backend]
+    B --> C[Roadmap Generation]
+    C --> D[Internship API]
+    D --> E[MongoDB Storage]
